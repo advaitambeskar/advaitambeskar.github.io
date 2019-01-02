@@ -11,6 +11,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
+    <script src="detect.js"></script>
 
     <!--
         I might update this website frequently, as I upload more substantial stuff on my github.
@@ -19,7 +20,8 @@
 </head>
 
 <body>
-    <!--
+    <div class="container-fluid">
+        <!--
             Navigation Bar/ Header. Always on top, sticky.
             Contains
                 -- Name/
@@ -28,159 +30,164 @@
                 -- Link to the blog
         -->
 
-    <nav class='navbar navbar-expand-lg navbar-dark bg-dark fixed-top'>
-        <a class='navbar-brand' href="http://www.advaitambeskar.com" target="_blank">Advait Ambeskar</a>
+        <nav class='navbar navbar-expand-lg navbar-dark bg-dark fixed-top'>
+            <a class='navbar-brand' href="http://www.advaitambeskar.com" target="_blank">Advait Ambeskar</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse active" id="navbarCollapse">
-            <ul class="nav navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/advaitambeskar/" target="_blank">Github</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.linkedin.com/in/advaitambeskar/" target="_blank">LinkedIn</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="http://blog.advaitambeskar.com" target="_blank">Blog</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!--
+            <div class="collapse navbar-collapse active" id="navbarCollapse">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/advaitambeskar/" target="_blank">Github</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/advaitambeskar/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://blog.advaitambeskar.com" target="_blank">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--
         Lite introduction in light background
     -->
-    <div class="container">
-        <div class="jumbotron" style="width: 100%;">
-            <h1 class="display-5 mt-4">Hello, world!</h1>
-            <p class="lead text-justify">My name is Advait Ambeskar. I am a front-end web developer working in Angular,
-                React and VueJS.
-                Currently, I am working on two projects --
-                <a class="text-decoration-none" href="#" target='_blank'>anonpost</a>, and <a class="text-decoration-none"
-                    href="#" target='_blank'>chirper</a>, using MEAN and MERN stack. I have a passion for web design
-                and
-                love to create for the web and the mobile devices. I actively dabble in Data Analysis and have been
-                teaching myself TensorFlow.js in my free time.
-            </p>
-            <hr class="my-4">
-            <p>
-                Currently, I am pursuing a graduate degree in computer science from the <a class="text-decoration-none"
-                    href="https://www.ufl.edu/" target='_blank'>University of Florida</a>
-            </p>
+        <div class="container">
+            <div class="jumbotron" style="width: 100%;">
+                <h1 class="display-5 mt-4">Hello, world!</h1>
+                <p class="lead text-justify">My name is Advait Ambeskar. I am a front-end web developer working in
+                    Angular,
+                    React and VueJS.
+                    Currently, I am working on two projects --
+                    <a class="text-decoration-none" href="#" target='_blank'>anonpost</a>, and <a class="text-decoration-none"
+                        href="#" target='_blank'>chirper</a>, using MEAN and MERN stack. I have a passion for web
+                    design
+                    and
+                    love to create for the web and the mobile devices. I actively dabble in Data Analysis and have been
+                    teaching myself TensorFlow.js in my free time.
+                </p>
+                <hr class="my-4">
+                <p>
+                    Currently, I am pursuing a graduate degree in computer science from the <a class="text-decoration-none"
+                        href="https://www.ufl.edu/" target='_blank'>University of Florida</a>
+                </p>
+            </div>
         </div>
-    </div>
 
-    <!-- 
+        <!-- 
         Card type display of my portfolio
     -->
 
-    <!-- TOP 4 -->
-    <div class="container">
-        <div class="row mx-auto">
-            <div class="card mb-2 mx-auto" style="width: 16rem; ">
-                <div class="card-body">
-                    <h5 class="card-title">Peer to peer design</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">CNT5106C - Group Project</h6>
-                    <p class="card-text">A quick low latency design of p2p systems using java networking modules.</p>
-                    <a href="https://github.com/advaitambeskar/CNT5106C-Computer-Networks-Project" class="btn btn-dark">Github
-                        Repository</a>
+        <!-- TOP 4 -->
+        <div class="container">
+            <div class="row mx-auto">
+                <div class="card mb-2 mx-auto" style="width: 16rem; ">
+                    <div class="card-body">
+                        <h5 class="card-title">Peer to peer design</h5>
+                        <h6 class="card-subtitle mb-3 text-muted">CNT5106C - Group Project</h6>
+                        <p class="card-text">A quick low latency design of p2p systems using java networking modules.</p>
+                        <a href="https://github.com/advaitambeskar/CNT5106C-Computer-Networks-Project" class="btn btn-dark">Github
+                            Repository</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card mb-2 mx-auto" style="width: 16rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Crime Helper</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">Crime data analysis</h6>
-                    <p class="card-text">Full stack implementation of data analysis problem using SQL Database.</p>
-                    <a href="https://github.com/advaitambeskar/Crime-Helper" class="btn btn-dark">Github Repository</a>
+                <div class="card mb-2 mx-auto" style="width: 16rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Crime Helper</h5>
+                        <h6 class="card-subtitle mb-3 text-muted">Crime data analysis</h6>
+                        <p class="card-text">Full stack implementation of data analysis problem using SQL Database.</p>
+                        <a href="https://github.com/advaitambeskar/Crime-Helper" class="btn btn-dark">Github Repository</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card mb-2 mx-auto" style="width: 16rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Afridokta</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">Medicine using Virtual Reality</h6>
-                    <p class="card-text">Virtual Reality implementation of telemedicine services in Africa.</p>
-                    <a href="https://github.com/advaitambeskar/Afridokta-2018" class="btn btn-dark">Github Repository</a>
+                <div class="card mb-2 mx-auto" style="width: 16rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Afridokta</h5>
+                        <h6 class="card-subtitle mb-3 text-muted">Medicine using Virtual Reality</h6>
+                        <p class="card-text">Virtual Reality implementation of telemedicine services in Africa.</p>
+                        <a href="https://github.com/advaitambeskar/Afridokta-2018" class="btn btn-dark">Github
+                            Repository</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card mb-2 mx-auto" style="width: 16rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Fibonacci Heap</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">Advanced Data Structures</h6>
-                    <p class="card-text">Implementation of Fibonacci Heaps for Advanced Data Structures.</p>
-                    <a href="https://github.com/advaitambeskar/Fibonacci-Heap" class="btn btn-dark">Github Repository</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- NEXT 4 -->
-
-    <div class="container">
-        <div class="row mx-auto">
-            <div class="card mb-2 mx-auto" style="width: 16rem; ">
-                <div class="card-body">
-                    <h5 class="card-title">Assembly using NLP</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">NLP Solution for Assembly Programming</h6>
-                    <p class="card-text">Generation of Assembly codes for microprocessors using plain-text English.</p>
-                    <a href="https://github.com/advaitambeskar/NLP_Assembly" class="btn btn-dark">Github Repository</a>
-                </div>
-            </div>
-            <div class="card mb-2 mx-auto" style="width: 16rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Resume Scan</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">With master. Forked from <a class="no-text-decoration"
-                            href="https://github.com/Ketcomp/ResumeScan">/ketcomp</a></h6>
-                    <p class="card-text">Scan resume for keyword matching. Currently designing front-end for easy
-                        analysis.</p>
-                    <a href="https://github.com/advaitambeskar/ResumeScan" class="btn btn-dark">Github Repository</a>
-                </div>
-            </div>
-            <div class="card mb-2 mx-auto" style="width: 16rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Maze Path</h5>
-                    <h6 class="card-subtitle mb-3 text-muted">Robot Path Detection using Image Processing</h6>
-                    <p class="card-text">Published on Path sensing using image processing. Code lost due to loss of
-                        backup.</p>
-                    <a href="https://github.com/advaitambeskar/mazepathIP" class="btn btn-dark">Github Repository</a>
-                </div>
-            </div>
-            <div class="card mb-2 mx-auto" style="width: 16rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Visitor Counter </h5>
-                    <h6 class="card-subtitle mb-3 text-muted">Bidirectional Visitor Counter for Arduino</h6>
-                    <p class="card-text">Designed a quick solution for bidirectional counter using Arduino Uno and
-                        sensors.</p>
-                    <a href="https://github.com/advaitambeskar/Bidirectional-Visitor-Counter" class="btn btn-dark">Github
-                        Repository</a>
+                <div class="card mb-2 mx-auto" style="width: 16rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Fibonacci Heap</h5>
+                        <h6 class="card-subtitle mb-3 text-muted">Advanced Data Structures</h6>
+                        <p class="card-text">Implementation of Fibonacci Heaps for Advanced Data Structures.</p>
+                        <a href="https://github.com/advaitambeskar/Fibonacci-Heap" class="btn btn-dark">Github
+                            Repository</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <hr class="my-4">
-    <!-- more repositories -->
-    <div class="container">
 
-    </div>
+        <!-- NEXT 4 -->
 
-    <!--
+        <div class="container">
+            <div class="row mx-auto">
+                <div class="card mb-2 mx-auto" style="width: 16rem; ">
+                    <div class="card-body">
+                        <h5 class="card-title">Assembly using NLP</h5>
+                        <h6 class="card-subtitle mb-3 text-muted">NLP Solution for Assembly Programming</h6>
+                        <p class="card-text">Generation of Assembly codes for microprocessors using plain-text English.</p>
+                        <a href="https://github.com/advaitambeskar/NLP_Assembly" class="btn btn-dark">Github Repository</a>
+                    </div>
+                </div>
+                <div class="card mb-2 mx-auto" style="width: 16rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Resume Scan</h5>
+                        <h6 class="card-subtitle mb-3 text-muted">With master. Forked from <a class="no-text-decoration"
+                                href="https://github.com/Ketcomp/ResumeScan">/ketcomp</a></h6>
+                        <p class="card-text">Scan resume for keyword matching. Currently designing front-end for easy
+                            analysis.</p>
+                        <a href="https://github.com/advaitambeskar/ResumeScan" class="btn btn-dark">Github Repository</a>
+                    </div>
+                </div>
+                <div class="card mb-2 mx-auto" style="width: 16rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Maze Path</h5>
+                        <h6 class="card-subtitle mb-3 text-muted">Robot Path Detection using Image Processing</h6>
+                        <p class="card-text">Published on Path sensing using image processing. Code lost due to loss of
+                            backup.</p>
+                        <a href="https://github.com/advaitambeskar/mazepathIP" class="btn btn-dark">Github Repository</a>
+                    </div>
+                </div>
+                <div class="card mb-2 mx-auto" style="width: 16rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Visitor Counter </h5>
+                        <h6 class="card-subtitle mb-3 text-muted">Bidirectional Visitor Counter for Arduino</h6>
+                        <p class="card-text">Designed a quick solution for bidirectional counter using Arduino Uno and
+                            sensors.</p>
+                        <a href="https://github.com/advaitambeskar/Bidirectional-Visitor-Counter" class="btn btn-dark">Github
+                            Repository</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+        <!-- more repositories -->
+        <div class="container">
+
+        </div>
+
+        <!--
         Footer
     -->
-    <!-- Pre-footer spacer -->
-    <div class="container">
-        <div class="row">
-            <div class="col my-5">
+        <!-- Pre-footer spacer -->
+        <div class="container">
+            <div class="row">
+                <div class="col my-5">
+                </div>
             </div>
         </div>
+        <!-- Actual footer-->
+        <nav class='navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom'>
+            <div class="container-fluid d-flex justify-content-center">
+                <p class="text-white">advaitambeskar.com</p>
+            </div>
+        </nav>
     </div>
-    <!-- Actual footer-->
-    <nav class='navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom'>
-        <div class="container-fluid d-flex justify-content-center">
-            <p class="text-white">advaitambeskar.com</p>
-        </div>
-    </nav>
 </body>
 
 </html>
